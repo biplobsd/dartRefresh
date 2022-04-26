@@ -3,6 +3,8 @@ import 'dart:io';
 enum condition { sunny, cloudy, drizzly, rainy }
 
 void main(List<String> args) {
+  var listss = [];
+  assert(listss.isNotEmpty, 'List is empty');
   var p = 5;
   print(p.isEven ? 'Even' : 'Odd');
 
