@@ -1,0 +1,24 @@
+name: Added Preview README.md Pages
+on:
+  push:
+    paths: ['*.dart']
+
+jobs:
+  add_preview:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Added preview on README.md, last commit title, hash, preview path
+      run: |
+        python assets/makeREADME.py
+    - name: Commit files 
+      run: |
+        git config --local user.name  ${{ github.actor }}
+        git add ./README.md
+        git commit -m "Added preview ${{ github.event.head_commit.message }}"
+    - name: Push changes 
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.TOKEN }}
