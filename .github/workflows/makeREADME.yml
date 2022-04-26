@@ -1,7 +1,6 @@
 name: Added Preview README.md Pages
 on:
   push:
-    paths: ['*.dart']
 
 jobs:
   add_preview:
