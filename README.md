@@ -182,6 +182,18 @@ void main(List<String> args) {
 
 [view full code](operator/assignment.dart)<br><br>
 
+## exception<br>
+```
+import 'dart:math';
+
+void main(List<String> args) {
+  int min = -1;
+  int max = 4;
+  var p = min + R
+```
+
+[view full code](exception/exceptions.dart)<br><br>
+
 ## controlFlow<br>
 ```
 import 'dart:io';
