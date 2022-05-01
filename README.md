@@ -210,6 +210,15 @@ void main(List<String> args) {
 
 [view full code](dartclass/dartclass.dart)<br><br>
 
+## factoryConstructor<br>
+```
+// ignore_for_file: public_member_api_docs, sort_constructors_first
+class Singleton {
+  late final S
+```
+
+[view full code](dartclass/factoryConstructor.dart)<br><br>
+
 ## lists<br>
 ```
 void main(List<String> args) {
