@@ -145,6 +145,21 @@ void main(List<String> args) {
 
 ## dartclass<br>
 ```
+class A {
+  int a;
+  int b;
+  int c;
+
+  A({
+    required this.a,
+    required this.b,
+    required t
+```
+
+[view full code](dartclass/methods.dart)<br><br>
+
+## dartclass<br>
+```
 class A extends Object {
   @override
   String toString() {
@@ -153,6 +168,21 @@ class A extends Object {
 ```
 
 [view full code](dartclass/inheritance.dart)<br><br>
+
+## dartclass<br>
+```
+class A {
+  int a = 1;
+  int _d = 3;
+
+  final int c = 23;
+  late int p;
+  late final int e;
+
+  stati
+```
+
+[view full code](dartclass/instanceVariable.dart)<br><br>
 
 ## dartclass<br>
 ```
