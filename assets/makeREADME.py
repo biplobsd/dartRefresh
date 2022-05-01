@@ -4,7 +4,7 @@ from pathlib import Path
 
 def scanReadme():
     readmeFiles = [[
-        path, f'## {path.parent}'] for path in list(Path('.').rglob('*.dart'))[1:]]
+        path, f'## {path.name.removesuffix(".dart")}'] for path in list(Path('.').rglob('*.dart'))[1:]]
     return readmeFiles
 
 
