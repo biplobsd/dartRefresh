@@ -287,6 +287,18 @@ void main(List<String> args) {
 
 [view full code](operator/assignment.dart)<br><br>
 
+## Mixins<br>
+```
+class Performar {
+  void perform() => print("Performing...");
+}
+
+mixin Guitarist on Performar {
+  vo
+```
+
+[view full code](mixin/Mixins.dart)<br><br>
+
 ## strings<br>
 ```
 void main() {
