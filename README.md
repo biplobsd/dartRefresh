@@ -113,6 +113,17 @@ void main() {
 
 [view full code](bool/bool.dart)<br><br>
 
+## AbstractClass<br>
+```
+abstract class UserControlsInterface {
+  late final List<int> userData;
+
+  void create();
+  void vie
+```
+
+[view full code](abstractClass/AbstractClass.dart)<br><br>
+
 ## functions<br>
 ```
 void main(List<String> args) {
