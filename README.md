@@ -183,6 +183,18 @@ class A extends Object {
 
 [view full code](dartclass/inheritance.dart)<br><br>
 
+## inheritance2<br>
+```
+class Animal {
+  final String name;
+
+  Animal({required this.name});
+
+  void whatAmI() => print("I'm
+```
+
+[view full code](dartclass/inheritance2.dart)<br><br>
+
 ## instanceVariable<br>
 ```
 class A {
