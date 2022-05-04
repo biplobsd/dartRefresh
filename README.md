@@ -323,3 +323,13 @@ void main() {
 
 [view full code](null/assertionOperator.dart)<br><br>
 
+## Extension<br>
+```
+extension IntegerExtention on int {
+  int get luckyInteger => 12;
+  int get add11 => this + 11;
+  in
+```
+
+[view full code](extension/Extension.dart)<br><br>
+
