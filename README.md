@@ -23,6 +23,19 @@ int? nullablevari
 
 [view full code](variable/dart_variable.dart)<br><br>
 
+## Stack<br>
+```
+class Stack<T> {
+  List<T> _list;
+
+  Stack(this._list);
+
+  T get peek => _list.last;
+  int get lengt
+```
+
+[view full code](generic/Stack.dart)<br><br>
+
 ## Generic<br>
 ```
 // ignore_for_file: public_member_api_docs, sort_constructors_first
