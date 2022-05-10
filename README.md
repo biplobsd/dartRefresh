@@ -23,6 +23,16 @@ int? nullablevari
 
 [view full code](variable/dart_variable.dart)<br><br>
 
+## Generic<br>
+```
+// ignore_for_file: public_member_api_docs, sort_constructors_first
+class Tuple<E> {
+  final E? _a;
+
+```
+
+[view full code](generic/Generic.dart)<br><br>
+
 ## sets<br>
 ```
 void main(List<String> args) {
